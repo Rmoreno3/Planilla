@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 input {
     border: 0px solid transparent;
     background-color: transparent;
@@ -82,4 +88,17 @@ input {
     text-align: center;
     height: 10px;
     font-weight: bold;
+}
+
+.main_1 {
+    background-color: #98999C;
+    text-align: center;
+}
+
+.main_2 {
+
+}
+
+.table_main_2 {
+    width: 100%;
 }
