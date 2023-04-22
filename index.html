@@ -12,33 +12,67 @@
         <div class="informacion_cliente">
             <div>
                 <form action="#" class="datos_cliente">
-                    <label for="name_cliente">CLIENTE</label>
+                    <label for="name_cliente">CLIENTE:</label>
                     <input type="text" id="name_cliente" placeholder="NOMBRE CLIENTE">
                     <div>
-                        <label for="name_cliente">EMPRESA</label>
+                        <label for="name_cliente">EMPRESA:</label>
                         <input type="text" id="name_cliente" placeholder="Nombre Empresa">
                     </div>
                     <div>
-                        <label for="name_cliente">RAZON SOCIAL</label>
+                        <label for="name_cliente">RAZON SOCIAL:</label>
                         <input type="text" id="name_cliente" placeholder="Nombre Razon Social">
                     </div>
                     <div>
-                        <label for="name_cliente">CORREO</label>
+                        <label for="name_cliente">CORREO:</label>
                         <input type="email" id="name_cliente" placeholder="vitrineando@gmail.com">
                     </div>
                     <div>
-                        <label for="name_cliente">TELEFONO FIJO</label>
+                        <label for="name_cliente">TELEFONO FIJO:</label>
                         <input type="text" id="name_cliente" placeholder="+1 (786) 6008219">
                     </div>
                     <div>
-                        <label for="name_cliente">TELEFONO MOVIL</label>
+                        <label for="name_cliente">TELEFONO MOVIL:</label>
                         <input type="text" id="name_cliente" placeholder="+1 (786) 6008219">
                     </div>
                 </form>
             </div>
             <div class="tabla_pedido">
                 <h2 class="title_tabla_pedido">SOLICITUD DE COTIZACION</h2>
-                <div class="tabla_pedido_1">
+                <div>
+                    <div class="tabla_pedido_tracking">
+                        <div>
+                            <label for="" id="letra_pedido_tracking">Pedido Nº:</label>
+                            <input type="text" placeholder="3232" id="letra_pedido_tracking">
+                        </div>
+                        <div>
+                            <label for="" id="letra_pedido_tracking">Nº. Tracking:</label>
+                            <input type="text" placeholder="3232" id="Tracking" id="letra_pedido_tracking">
+                        </div>
+                    </div>
+                    <div class="tabla_pedido_tracking-time">
+                       <table>
+                        <tr>
+                            <td>
+                                Rut. Fact:
+                                <br>
+                                <input type="text"/>
+                            </td>
+                            <td>
+                                Fecha:
+                                <br>
+                                <input type="text"/>
+                            </td>
+                            <td>
+                                Hora
+                                <br>
+                                <input type="text"/>
+                            </td>
+                        </tr>
+                       </table>
+                    </div>
+                </div>
+                
+                <!-- <div class="tabla_pedido_1">
                     <div class="pedido">
                         <div class="pedido_1">
                             <p>Pedido Nº:</p>
@@ -57,30 +91,8 @@
                     </div>
                 </div>
                 <div class="prueba">
-                    <div class="tabla_pedido_2">
-                        <div class="datos_pedido">
-                            <div class="pedido_1">
-                                <p>Pedido Nº:</p>
-                            </div>
-                            <input type="text" placeholder="1648465491" class="holder_pedido">
-                        </div>
-                    </div>
-                    <div class="tabla_pedido_2">
-                        <div class="datos_pedido">
-                            <div class="pedido_1">
-                                <p>Pedido Nº:</p>
-                            </div>
-                            <input type="text" placeholder="1648465491" class="holder_pedido">
-                        </div>
-                    </div>
-                    <div class="tabla_pedido_2">
-                        <div class="datos_pedido">
-                            <div class="pedido_1">
-                                <p>Pedido Nº:</p>
-                            </div>
-                        <input type="text" placeholder="1648465491" class="holder_pedido">
-                    </div>
-                </div>
+                    
+                </div> -->
             </div>
         </div>
     </header>
@@ -96,17 +108,17 @@
                         <br>
                         <input type="text"/>
                     </td>
-                    <td>
+                    <td id="td_gray">
                         Nombre Remitente:
                         <br>
                         <input type="text"/>
                     </td>
-                    <td>
+                    <td id="td_gray">
                         Contacto 1:
                         <br>
                         <input type="text"/>
                     </td>
-                    <td>
+                    <td id="td_gray">
                         Contacto 2:
                         <br>
                         <input type="text"/>
@@ -114,64 +126,64 @@
                 </tr>
                 <tr>
                     <td>
-                        ID Empresa:
+                        Direccion:
                         <br>
                         <input type="text"/>
                     </td>
-                    <td>
-                        Nombre Remitente:
+                    <td id="td_gray">
+                        Nº Referencia:
                         <br>
                         <input type="text"/>
                     </td>
-                    <td>
-                        Contacto 1:
+                    <td id="td_blue">
+                        Correo:
                         <br>
                         <input type="text"/>
                     </td>
-                    <td>
-                        Contacto 2:
-                        <br>
-                        <input type="text"/>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        ID Empresa:
-                        <br>
-                        <input type="text"/>
-                    </td>
-                    <td>
-                        Nombre Remitente:
-                        <br>
-                        <input type="text"/>
-                    </td>
-                    <td>
-                        Contacto 1:
-                        <br>
-                        <input type="text"/>
-                    </td>
-                    <td>
-                        Contacto 2:
+                    <td id="td_blue">
+                        Correo:
                         <br>
                         <input type="text"/>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        ID Empresa:
+                        Ciudad:
                         <br>
                         <input type="text"/>
                     </td>
+                    <td id="td_gray">
+                        Observaciones:
+                        <br>
+                        <input type="text"/>
+                    </td>
+                    <td id="td_blue">
+                        Telefono:
+                        <br>
+                        <input type="text"/>
+                    </td>
+                    <td id="td_blue">
+                        Telefono:
+                        <br>
+                        <input type="text"/>
+                    </td>
+                </tr>
+                <tr>
                     <td>
+                        Pais:
+                        <br>
+                        <input type="text"/>
+                    </td>
+                    <td id="td_gray">
 
                     </td>
-                    <td>
-                        Contacto 1:
+                    <td id="td_blue">
+                        Whatshapp:
                         <br>
                         <input type="text"/>
                     </td>
-                    <td>
-                        Contacto 2:
+                    <td id="td_blue">
+                        Whatshapp:
                         <br>
                         <input type="text"/>
                     </td>
@@ -185,86 +197,86 @@
             <table class="table_main_2">
                 <tr>
                     <td>
-                        ID Empresa:
+                        Nombre CD:
                         <br>
                         <input type="text"/>
                     </td>
-                    <td>
-                        Nombre Remitente:
+                    <td id="td_gray">
+                        Hora Desde:
                         <br>
                         <input type="text"/>
                     </td>
-                    <td>
+                    <td id="td_gray">
                         Contacto 1:
                         <br>
                         <input type="text"/>
                     </td>
-                    <td>
-                        Contacto 2:
+                    <td id="td_gray">
+                        <label for="">Contacto 2:</label> 
                         <br>
                         <input type="text"/>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        ID Empresa:
+                        Direccion:
                         <br>
                         <input type="text"/>
                     </td>
-                    <td>
-                        Nombre Remitente:
+                    <td id="td_gray">
+                        Hora Hasta:
                         <br>
                         <input type="text"/>
                     </td>
-                    <td>
-                        Contacto 1:
+                    <td id="td_blue">
+                        Correo:
                         <br>
                         <input type="text"/>
                     </td>
-                    <td>
-                        Contacto 2:
-                        <br>
-                        <input type="text"/>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        ID Empresa:
-                        <br>
-                        <input type="text"/>
-                    </td>
-                    <td>
-                        Nombre Remitente:
-                        <br>
-                        <input type="text"/>
-                    </td>
-                    <td>
-                        Contacto 1:
-                        <br>
-                        <input type="text"/>
-                    </td>
-                    <td>
-                        Contacto 2:
+                    <td id="td_blue">
+                        Correo:
                         <br>
                         <input type="text"/>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        ID Empresa:
+                        Ciudad:
                         <br>
                         <input type="text"/>
                     </td>
+                    <td id="td_gray">
+                        Observaciones:
+                        <br>
+                        <input type="text"/>
+                    </td>
+                    <td id="td_blue">
+                        Telefono:
+                        <br>
+                        <input type="text"/>
+                    </td>
+                    <td id="td_blue">
+                        Telefono:
+                        <br>
+                        <input type="text"/>
+                    </td>
+                </tr>
+                <tr>
                     <td>
+                        Pais:
+                        <br>
+                        <input type="text"/>
+                    </td>
+                    <td id="td_gray">
 
                     </td>
-                    <td>
-                        Contacto 1:
+                    <td id="td_blue">
+                        Whatshapp:
                         <br>
                         <input type="text"/>
                     </td>
-                    <td>
-                        Contacto 2:
+                    <td id="td_blue">
+                        Whatshapp:
                         <br>
                         <input type="text"/>
                     </td>
@@ -282,17 +294,17 @@
                         <br>
                         <input type="text"/>
                     </td>
-                    <td>
-                        Nombre Remitente:
+                    <td id="td_gray">
+                        Nombre Destinatario:
                         <br>
                         <input type="text"/>
                     </td>
-                    <td>
+                    <td id="td_gray">
                         Contacto 1:
                         <br>
                         <input type="text"/>
                     </td>
-                    <td>
+                    <td id="td_gray">
                         Contacto 2:
                         <br>
                         <input type="text"/>
@@ -300,64 +312,66 @@
                 </tr>
                 <tr>
                     <td>
-                        ID Empresa:
+                        Direccion:
                         <br>
                         <input type="text"/>
                     </td>
-                    <td>
-                        Nombre Remitente:
+                    <td id="td_gray">
+                        Nº Referencia:
                         <br>
                         <input type="text"/>
                     </td>
-                    <td>
-                        Contacto 1:
+                    <td id="td_blue">
+                        Correo:
                         <br>
                         <input type="text"/>
                     </td>
-                    <td>
-                        Contacto 2:
-                        <br>
-                        <input type="text"/>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        ID Empresa:
-                        <br>
-                        <input type="text"/>
-                    </td>
-                    <td>
-                        Nombre Remitente:
-                        <br>
-                        <input type="text"/>
-                    </td>
-                    <td>
-                        Contacto 1:
-                        <br>
-                        <input type="text"/>
-                    </td>
-                    <td>
-                        Contacto 2:
+                    <td id="td_blue">
+                        Correo:
                         <br>
                         <input type="text"/>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        ID Empresa:
+                        Ciudad:
                         <br>
                         <input type="text"/>
                     </td>
-                    <td>
-
-                    </td>
-                    <td>
-                        Contacto 1:
+                    <td id="td_gray">
+                        Hora Desde:
                         <br>
                         <input type="text"/>
                     </td>
+                    <td id="td_blue">
+                        Telefono:
+                        <br>
+                        <input type="text"/>
+                    </td>
+                    <td id="td_blue">
+                        Telefono:
+                        <br>
+                        <input type="text"/>
+                    </td>
+                </tr>
+                <tr>
                     <td>
-                        Contacto 2:
+                        Pais:
+                        <br>
+                        <input type="text"/>
+                    </td>
+                    <td id="td_gray">
+                        Hora Hasta:
+                        <br>
+                        <input type="text"/>
+                    </td>
+                    <td id="td_blue">
+                        Observaciones:
+                        <br>
+                        <input type="text"/>
+                    </td>
+                    <td id="td_blue">
+                        Whatshapp:
                         <br>
                         <input type="text"/>
                     </td>
@@ -371,21 +385,21 @@
             <table class="table_main_2">
                 <tr>
                     <td>
-                        ID Empresa:
+                        Nombre CD:
                         <br>
                         <input type="text"/>
                     </td>
-                    <td>
-                        Nombre Remitente:
+                    <td id="td_gray">
+                        Hora Desde:
                         <br>
                         <input type="text"/>
                     </td>
-                    <td>
+                    <td id="td_gray">
                         Contacto 1:
                         <br>
                         <input type="text"/>
                     </td>
-                    <td>
+                    <td id="td_gray">
                         Contacto 2:
                         <br>
                         <input type="text"/>
@@ -393,64 +407,64 @@
                 </tr>
                 <tr>
                     <td>
-                        ID Empresa:
+                        Direccion:
                         <br>
                         <input type="text"/>
                     </td>
-                    <td>
-                        Nombre Remitente:
+                    <td id="td_gray">
+                        Hora Hasta:
                         <br>
                         <input type="text"/>
                     </td>
-                    <td>
-                        Contacto 1:
+                    <td id="td_blue">
+                        Correo:
                         <br>
                         <input type="text"/>
                     </td>
-                    <td>
-                        Contacto 2:
-                        <br>
-                        <input type="text"/>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        ID Empresa:
-                        <br>
-                        <input type="text"/>
-                    </td>
-                    <td>
-                        Nombre Remitente:
-                        <br>
-                        <input type="text"/>
-                    </td>
-                    <td>
-                        Contacto 1:
-                        <br>
-                        <input type="text"/>
-                    </td>
-                    <td>
-                        Contacto 2:
+                    <td id="td_blue">
+                        Correo:
                         <br>
                         <input type="text"/>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        ID Empresa:
+                        Ciudad:
                         <br>
                         <input type="text"/>
                     </td>
+                    <td id="td_gray">
+                        Observaciones:
+                        <br>
+                        <input type="text"/>
+                    </td>
+                    <td id="td_blue">
+                        Telefono:
+                        <br>
+                        <input type="text"/>
+                    </td>
+                    <td id="td_blue">
+                        Telefono:
+                        <br>
+                        <input type="text"/>
+                    </td>
+                </tr>
+                <tr>
                     <td>
+                        Pais:
+                        <br>
+                        <input type="text"/>
+                    </td>
+                    <td id="td_gray">
 
                     </td>
-                    <td>
-                        Contacto 1:
+                    <td id="td_blue">
+                        Whatshapp:
                         <br>
                         <input type="text"/>
                     </td>
-                    <td>
-                        Contacto 2:
+                    <td id="td_blue">
+                        Whatshapp:
                         <br>
                         <input type="text"/>
                     </td>

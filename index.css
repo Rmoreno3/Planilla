@@ -1,9 +1,3 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 input {
     border: 0px solid transparent;
     background-color: transparent;
@@ -22,6 +16,7 @@ input {
 .datos_cliente {
     display: flex;
     flex-direction: column;
+    font-size: 20px;
 }
 
 .pedido {
@@ -62,27 +57,41 @@ input {
 .tabla_pedido {
     display: flex;
     flex-direction: column;
-    padding-left: 10px;
-    height: 100%;
+    justify-content: center;
 }
 
-.tabla_pedido_1 {
+.tabla_pedido_tracking {
     display: flex;
+    justify-content: space-between;
+    flex-direction: row;
     background-color: blue;
 }
 
-.tabla_pedido_2 {
-    display: flex;
+.tabla_pedido_tracking-time {
     background-color: #98999C;
 }
 
-.prueba {
+
+.tabla_pedido_tracking-time td,th{
+    text-align: left;
+    margin-left: 20px;
+}
+
+.tabla_pedido_tracking-time input {
+    text-align: left;
+}
+.tabla_pedido_tracking-time table {
+    width: 100%;
+}
+
+
+/* .prueba {
     display: flex;
     height: 50%;
     align-items: center;
     background-color: #98999C;
     justify-content: space-between;
-}
+} */
 
 .title_tabla_pedido {
     text-align: center;
@@ -96,9 +105,33 @@ input {
 }
 
 .main_2 {
-
+    text-align: center;
 }
 
 .table_main_2 {
     width: 100%;
+    border: #b2b2b2 1px solid;
+}
+
+.table_main_2 td, th{
+    border: #b2b2b2 1px solid;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.table_main_2 input {
+    text-align: left;
+}
+
+#td_gray {
+    background-color: #98999C;
+}
+
+#td_blue {
+    background-color: blue;
+    color: white;
+}
+
+#letra_pedido_tracking {
+    font-size: 20px;
 }
