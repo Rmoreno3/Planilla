@@ -64,11 +64,11 @@ input {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-    background-color: blue;
+    background-color: #293963;
 }
 
 .tabla_pedido_tracking-time {
-    background-color: #98999C;
+    background-color: #d1d1d1;
 }
 
 
@@ -100,7 +100,7 @@ input {
 }
 
 .main_1 {
-    background-color: #98999C;
+    background-color: #d1d1d1;
     text-align: center;
 }
 
@@ -135,7 +135,7 @@ input {
 }
 
 .main_3 h2 {
-    background-color: #98999C;
+    background-color: #d1d1d1;
 }
 
 .detalles_tarifa {
@@ -148,7 +148,7 @@ input {
     display: flex;
     justify-content: center;
     width: 50%;
-    background-color: blue;
+    background-color: #293963;
 }
 
 .detalles_tarifa-2 {
@@ -157,7 +157,7 @@ input {
     justify-content: center;
     align-items: center;
     width: 50%;
-    background-color: gray;;
+    background-color: #3c3c3c;
 }
 
 
@@ -167,7 +167,7 @@ input {
 
 .detalles_tarifa-2_precio_final{
     display: flex;
-    background-color: blue;
+    background-color: #293963;
 }
 
 .terminos {
@@ -186,11 +186,11 @@ footer {
 }
 
 #td_gray {
-    background-color: #98999C;
+    background-color: #d1d1d1;
 }
 
 #td_blue {
-    background-color: blue;
+    background-color: #293963;
     color: white;
 }
 
@@ -201,6 +201,6 @@ footer {
 #td_doble {
     display: flex;
     justify-content: center;
-    background-color: blue;
+    background-color: #293963;
     color: white;
 }
