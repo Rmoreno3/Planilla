@@ -1,3 +1,10 @@
+
+
+html {
+    font-family: 'Montserrat';
+    font-weight: 700;
+}
+
 input {
     border: 0px solid transparent;
     background-color: transparent;
@@ -14,9 +21,14 @@ input {
 }
 
 .datos_cliente {
+    font-style: italic;
     display: flex;
     flex-direction: column;
     font-size: 20px;
+}
+
+.title_solicitud {
+    margin-bottom: -15px;
 }
 
 .pedido {
@@ -62,6 +74,9 @@ input {
 
 .tabla_pedido_tracking {
     display: flex;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     justify-content: space-between;
     flex-direction: row;
     background-color: #293963;
@@ -78,25 +93,21 @@ input {
 }
 
 .tabla_pedido_tracking-time input {
+    color: #414141;
     text-align: left;
 }
-.tabla_pedido_tracking-time table {
-    width: 100%;
+
+.input::placeholder {
+    color: #414141;
+    font-size: 18px;
+    font-style: italic;
 }
 
-
-/* .prueba {
-    display: flex;
-    height: 50%;
-    align-items: center;
-    background-color: #98999C;
-    justify-content: space-between;
-} */
-
-.title_tabla_pedido {
-    text-align: center;
-    height: 10px;
-    font-weight: bold;
+.tabla_pedido_tracking-time table {
+    padding-left: 80px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 100%;
 }
 
 .main_1 {
@@ -105,18 +116,19 @@ input {
 }
 
 .main_2 {
+    margin-top: -15px;
     text-align: center;
 }
 
 .table_main_2 {
+    margin-top: -18px;
     width: 100%;
-    border: #b2b2b2 1px solid;
 }
 
-.table_main_2 td, th{
-    border: #b2b2b2 1px solid;
+.table_main_2 td {
     text-align: left;
-    padding-left: 10px;
+    padding-left: 30px;
+    padding-top: 5px;
 }
 
 .table_main_2 input {
@@ -125,20 +137,78 @@ input {
 
 .table_main_3 {
     width: 100%;
-    border: #b2b2b2 1px solid;
 }
 
-.table_main_3 td, th{
-    border: #b2b2b2 1px solid;
+.restricciones {
     text-align: center;
-    padding-left: 10px;
 }
 
-.main_3 h2 {
-    background-color: #d1d1d1;
+.table_main_3 td {
+    text-align: left;
+    padding-top: 5px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+}
+
+.center {
+    text-align: center;
+}
+
+.main_3 {
+    margin-top: -15px;
+}
+
+.main_4 {
+    margin-top: -15px;
+}
+
+.title {
+    margin-bottom: 5px;
+}
+
+.title > h2 {
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.font-bold {
+    font-weight: 900;
+    color: #414141;
+}
+
+.input_tax input {
+    margin-left: 20px;
+}
+
+.font_bold_2 {
+
+    font-size: 30px;
+    text-align: center;
+    font-weight: 900;
+    color: #ffff;
+}
+
+
+.font_bold_3 {
+    width: 150px;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 900;
+    color: #ffff;
+}
+
+.main_5 {
+    margin-top: -10px;
+}
+
+#title {
+    margin-top: 10px;
+    background-color: #e6e5e5;
 }
 
 .detalles_tarifa {
+    margin-top: -15px;
     display: flex;
     justify-content: center;
     width: 100%;
@@ -146,6 +216,7 @@ input {
 
 .detalles_tarifa-1 {
     display: flex;
+    margin-right: 10px;
     justify-content: center;
     width: 50%;
     background-color: #293963;
@@ -153,30 +224,47 @@ input {
 
 .detalles_tarifa-2 {
     display: flex;
+    width: 50%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 50%;
     background-color: #3c3c3c;
 }
 
+.precio_final {
+    width: 255px;
+}
+
+.tax {
+    text-align: end;
+}
+
+.detalles_1 {
+    padding-top: 5px;
+    margin-right: 50px;
+}
+
+.spacing_input {
+    padding-left: 10px;
+}
+
+.detalles {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-right: -140px;
+}
 
 .detalles_tarifa-2_impuesto {
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .detalles_tarifa-2_precio_final{
     display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #293963;
-}
-
-.terminos {
-    text-align: center;
-    text-align: justify;
-}
-
-.terminos p {
-    padding: 20px;
 }
 
 footer {
@@ -185,8 +273,14 @@ footer {
     align-items: center;
 }
 
+#td_gray_1 {
+    background-color: #eeeded;
+    color: #414141;
+}
+
 #td_gray {
     background-color: #d1d1d1;
+    color: #414141;
 }
 
 #td_blue {
@@ -194,13 +288,85 @@ footer {
     color: white;
 }
 
-#letra_pedido_tracking {
-    font-size: 20px;
+.letra_pedido_tracking-input {
+    font-size: 18px;
+    color: #ffff;
+    font-weight: 400;
+    font-style: italic;
 }
+
+.letra_pedido_tracking-input-2 {
+    font-size: 20px;
+    color: #ffff;
+    font-weight: 900;
+}
+
+.letra_pedido_tracking-input::placeholder {
+    color: #ffff
+}
+
+.letra_pedido_tracking-label {
+    font-size: 20px;
+    color: #ffff;
+}
+
+.letra_pedido_tracking-label-2 {
+    color: #ffff;
+}
+
 
 #td_doble {
     display: flex;
-    justify-content: center;
     background-color: #293963;
     color: white;
+}
+
+#td_doble_2 {
+    display: flex;
+    align-items: center;
+    background-color: #293963;
+    color: white;
+}
+
+#label {
+    color: #414141;
+}
+
+
+.terminos {
+    margin-top: -30px;
+}
+
+.text {
+    text-align: justify;
+    font-weight: 400;
+    letter-spacing: -1px;
+    padding: 20px;
+}
+
+.input_width {
+    width: 50%;
+}
+
+.letra_pequena {
+    font-size: 12px;
+}
+
+.usd {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 100px;
+    padding-top: 10px
+}
+
+.tabla_detalles {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    color: #293963;
 }

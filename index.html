@@ -5,105 +5,100 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css"  href="./index.css">
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <title>Planilla Solicitud</title>
 </head>
 <body>
     <header>
-        <div class="informacion_cliente">
-            <div>
-                <form action="#" class="datos_cliente">
-                    <label for="name_cliente">CLIENTE:</label>
-                    <input type="text" id="name_cliente" placeholder="NOMBRE CLIENTE">
-                    <div>
-                        <label for="name_cliente">EMPRESA:</label>
-                        <input type="text" id="name_cliente" placeholder="Nombre Empresa">
-                    </div>
-                    <div>
-                        <label for="name_cliente">RAZON SOCIAL:</label>
-                        <input type="text" id="name_cliente" placeholder="Nombre Razon Social">
-                    </div>
-                    <div>
-                        <label for="name_cliente">CORREO:</label>
-                        <input type="email" id="name_cliente" placeholder="vitrineando@gmail.com">
-                    </div>
-                    <div>
-                        <label for="name_cliente">TELEFONO FIJO:</label>
-                        <input type="text" id="name_cliente" placeholder="+1 (786) 6008219">
-                    </div>
-                    <div>
-                        <label for="name_cliente">TELEFONO MOVIL:</label>
-                        <input type="text" id="name_cliente" placeholder="+1 (786) 6008219">
-                    </div>
-                </form>
-            </div>
-            <div class="tabla_pedido">
-                <h2 class="title_tabla_pedido">SOLICITUD DE COTIZACION</h2>
-                <div>
-                    <div class="tabla_pedido_tracking">
-                        <div>
-                            <label for="" id="letra_pedido_tracking">Pedido Nº:</label>
-                            <input type="text" placeholder="3232" id="letra_pedido_tracking">
-                        </div>
-                        <div>
-                            <label for="" id="letra_pedido_tracking">Nº. Tracking:</label>
-                            <input type="text" placeholder="3232" id="Tracking" id="letra_pedido_tracking">
-                        </div>
-                    </div>
-                    <div class="tabla_pedido_tracking-time">
-                       <table>
-                        <tr>
-                            <td>
-                                Rut. Fact:
-                                <br>
-                                <input type="text"/>
-                            </td>
-                            <td>
-                                Fecha:
-                                <br>
-                                <input type="text"/>
-                            </td>
-                            <td>
-                                Hora
-                                <br>
-                                <input type="text"/>
-                            </td>
-                        </tr>
-                       </table>
-                    </div>
-                </div>
-                
-                <!-- <div class="tabla_pedido_1">
-                    <div class="pedido">
-                        <div class="pedido_1">
-                            <p>Pedido Nº:</p>
-                        </div>
-                        <div class="pedido_2">
-                            <input type="text" placeholder="1648465491" class="holder_pedido">
-                        </div>
-                    </div>
-                    <div class="pedido">
-                        <div class="pedido_1">
-                            <p>Nº. Tracking:</p>
-                        </div>
-                        <div class="pedido_2">
-                            <input type="text" placeholder="1648465491" class="holder_pedido">
-                        </div>
-                    </div>
-                </div>
-                <div class="prueba">
-                    
-                </div> -->
-            </div>
+        <div>
+            <div>correo telefono</div>
+            <div>logo, nombre, iconos</div>
         </div>
     </header>
     <main>
+        <div>
+            <div class="informacion_cliente">
+                <div>
+                    <form action="#" class="datos_cliente">
+                        <label for="name_cliente">CLIENTE:</label>
+                        <input type="text" id="name_cliente" placeholder="NOMBRE CLIENTE" class="letra_pedido_tracking-input">
+                        <div>
+                            <label for="name_cliente">EMPRESA:</label>
+                            <input type="text" id="name_cliente" placeholder="Nombre Empresa" class="letra_pedido_tracking-input">
+                        </div>
+                        <div>
+                            <label for="name_cliente">RAZON SOCIAL:</label>
+                            <input type="text" id="name_cliente" placeholder="Nombre Razon Social" class="letra_pedido_tracking-input">
+                        </div>
+                        <div>
+                            <label for="name_cliente">CORREO:</label>
+                            <input type="email" id="name_cliente" placeholder="vitrineando@gmail.com" class="letra_pedido_tracking-input">
+                        </div>
+                        <div>
+                            <label for="name_cliente">TELEFONO FIJO:</label>
+                            <input type="text" id="name_cliente" placeholder="+1 (786) 6008219" class="letra_pedido_tracking-input">
+                        </div>
+                        <div>
+                            <label for="name_cliente">TELEFONO MOVIL:</label>
+                            <input type="text" id="name_cliente" placeholder="+1 (786) 6008219" class="letra_pedido_tracking-input">
+                        </div>
+                    </form>
+                </div>
+                <div class="tabla_pedido">
+                    <div class="title_solicitud">
+                        <h2 class="font_bold_2">SOLICITUD DE COTIZACION</h2>
+                    </div>
+                    <div>
+                        <div class="tabla_pedido_tracking">
+                            <div>
+                                <label for="" class="letra_pedido_tracking-label">Pedido Nº:</label>
+                                <input type="text" placeholder="1648465491" class="letra_pedido_tracking-input">
+                            </div>
+                            <div>
+                                <label for="" class="letra_pedido_tracking-label">Nº. Tracking:</label>
+                                <input type="text" placeholder="45378688-9" class="letra_pedido_tracking-input">
+                            </div>
+                        </div>
+                        <div class="tabla_pedido_tracking-time">
+                           <table>
+                            <tr>
+                                <td>
+                                    <label for="" id="label">
+                                        Rut. Fact:
+                                    </label>
+                                    <br>
+                                    <input type="text" class="input" placeholder="1648465491"/>
+                                </td>
+                                <td>
+                                    <label for="" id="label">
+                                        Fecha:
+                                    </label>
+                                    <br>
+                                    <input type="text"/ placeholder="01-01-2023" class="input">
+                                </td>
+                                <td>
+                                    <label for="" id="label">
+                                        Hora
+                                    </label>
+                                    <br>
+                                    <input type="text" class="input" placeholder="11:00 am"/>
+                                </td>
+                            </tr>
+                           </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="main_2">
-            <div>
-                <h2 id="td_gray">1.DATOS DE REMITENTE / SHIPPER / EXPORTADOR</h2>
+            <div id="title">
+                <h2 class="font-bold">1.DATOS DE REMITENTE / SHIPPER / EXPORTADOR</h2>
             </div>
             <table class="table_main_2">
                 <tr>
-                    <td>
+                    <td id="td_gray_1">
                         ID Empresa:
                         <br>
                         <input type="text"/>
@@ -125,7 +120,7 @@
                     </td>
                 </tr>
                 <tr>
-                    <td>
+                    <td id="td_gray_1">
                         Direccion:
                         <br>
                         <input type="text"/>
@@ -138,16 +133,16 @@
                     <td id="td_blue">
                         Correo:
                         <br>
-                        <input type="text"/>
+                        <input type="text" class="letra_pedido_tracking-input"/>
                     </td>
                     <td id="td_blue">
                         Correo:
                         <br>
-                        <input type="text"/>
+                        <input type="text" class="letra_pedido_tracking-input"/>
                     </td>
                 </tr>
                 <tr>
-                    <td>
+                    <td id="td_gray_1">
                         Ciudad:
                         <br>
                         <input type="text"/>
@@ -160,16 +155,16 @@
                     <td id="td_blue">
                         Telefono:
                         <br>
-                        <input type="text"/>
+                        <input type="text" class="letra_pedido_tracking-input"/>
                     </td>
                     <td id="td_blue">
                         Telefono:
                         <br>
-                        <input type="text"/>
+                        <input type="text" class="letra_pedido_tracking-input"/>
                     </td>
                 </tr>
                 <tr>
-                    <td>
+                    <td id="td_gray_1">
                         Pais:
                         <br>
                         <input type="text"/>
@@ -180,23 +175,23 @@
                     <td id="td_blue">
                         Whatshapp:
                         <br>
-                        <input type="text"/>
+                        <input type="text" class="letra_pedido_tracking-input"/>
                     </td>
                     <td id="td_blue">
                         Whatshapp:
                         <br>
-                        <input type="text"/>
+                        <input type="text" class="letra_pedido_tracking-input"/>
                     </td>
                 </tr>
             </table>
         </div>
         <div class="main_2">
-            <div>
-                <h2 id="td_gray">2. DATOS RECOGIDA</h2>
+            <div id="title">
+                <h2 class="font-bold">2. DATOS RECOGIDA</h2>
             </div>
             <table class="table_main_2">
                 <tr>
-                    <td>
+                    <td id="td_gray_1">
                         Nombre CD:
                         <br>
                         <input type="text"/>
@@ -218,7 +213,7 @@
                     </td>
                 </tr>
                 <tr>
-                    <td>
+                    <td id="td_gray_1">
                         Direccion:
                         <br>
                         <input type="text"/>
@@ -231,16 +226,16 @@
                     <td id="td_blue">
                         Correo:
                         <br>
-                        <input type="text"/>
+                        <input type="text" class="letra_pedido_tracking-input"/>
                     </td>
                     <td id="td_blue">
                         Correo:
                         <br>
-                        <input type="text"/>
+                        <input type="text" class="letra_pedido_tracking-input"/>
                     </td>
                 </tr>
                 <tr>
-                    <td>
+                    <td id="td_gray_1">
                         Ciudad:
                         <br>
                         <input type="text"/>
@@ -253,16 +248,16 @@
                     <td id="td_blue">
                         Telefono:
                         <br>
-                        <input type="text"/>
+                        <input type="text" class="letra_pedido_tracking-input"/>
                     </td>
                     <td id="td_blue">
                         Telefono:
                         <br>
-                        <input type="text"/>
+                        <input type="text" class="letra_pedido_tracking-input"/>
                     </td>
                 </tr>
                 <tr>
-                    <td>
+                    <td id="td_gray_1">
                         Pais:
                         <br>
                         <input type="text"/>
@@ -273,23 +268,23 @@
                     <td id="td_blue">
                         Whatshapp:
                         <br>
-                        <input type="text"/>
+                        <input type="text" class="letra_pedido_tracking-input"/>
                     </td>
                     <td id="td_blue">
                         Whatshapp:
                         <br>
-                        <input type="text"/>
+                        <input type="text" class="letra_pedido_tracking-input"/>
                     </td>
                 </tr>
             </table>
         </div>
         <div class="main_2">
-            <div>
-                <h2 id="td_gray">3. DATOS DE DESTINATARIO / CONSIGNEE / IMPORTADOR</h2>
+            <div id="title">
+                <h2 class="font-bold">3. DATOS DE DESTINATARIO / CONSIGNEE / IMPORTADOR</h2>
             </div>
             <table class="table_main_2">
                 <tr>
-                    <td>
+                    <td id="td_gray_1">
                         ID Empresa:
                         <br>
                         <input type="text"/>
@@ -311,7 +306,7 @@
                     </td>
                 </tr>
                 <tr>
-                    <td>
+                    <td id="td_gray_1">
                         Direccion:
                         <br>
                         <input type="text"/>
@@ -324,16 +319,16 @@
                     <td id="td_blue">
                         Correo:
                         <br>
-                        <input type="text"/>
+                        <input type="text" class="letra_pedido_tracking-input"/>
                     </td>
                     <td id="td_blue">
                         Correo:
                         <br>
-                        <input type="text"/>
+                        <input type="text" class="letra_pedido_tracking-input"/>
                     </td>
                 </tr>
                 <tr>
-                    <td>
+                    <td id="td_gray_1">
                         Ciudad:
                         <br>
                         <input type="text"/>
@@ -346,16 +341,16 @@
                     <td id="td_blue">
                         Telefono:
                         <br>
-                        <input type="text"/>
+                        <input type="text" class="letra_pedido_tracking-input"/>
                     </td>
                     <td id="td_blue">
                         Telefono:
                         <br>
-                        <input type="text"/>
+                        <input type="text" class="letra_pedido_tracking-input"/>
                     </td>
                 </tr>
                 <tr>
-                    <td>
+                    <td id="td_gray_1">
                         Pais:
                         <br>
                         <input type="text"/>
@@ -368,23 +363,23 @@
                     <td id="td_blue">
                         Observaciones:
                         <br>
-                        <input type="text"/>
+                        <input type="text" class="letra_pedido_tracking-input"/>
                     </td>
                     <td id="td_blue">
                         Whatshapp:
                         <br>
-                        <input type="text"/>
+                        <input type="text" class="letra_pedido_tracking-input"/>
                     </td>
                 </tr>
             </table>
         </div>
         <div class="main_2">
-            <div>
-                <h2 id="td_gray">4. DATOS DE ENTREGA</h2>
+            <div id="title">
+                <h2 class="font-bold">4. DATOS DE ENTREGA</h2>
             </div>
             <table class="table_main_2">
                 <tr>
-                    <td>
+                    <td id="td_gray_1">
                         Nombre CD:
                         <br>
                         <input type="text"/>
@@ -406,7 +401,7 @@
                     </td>
                 </tr>
                 <tr>
-                    <td>
+                    <td id="td_gray_1">
                         Direccion:
                         <br>
                         <input type="text"/>
@@ -419,16 +414,16 @@
                     <td id="td_blue">
                         Correo:
                         <br>
-                        <input type="text"/>
+                        <input type="text" class="letra_pedido_tracking-input"/>
                     </td>
                     <td id="td_blue">
                         Correo:
                         <br>
-                        <input type="text"/>
+                        <input type="text" class="letra_pedido_tracking-input"/>
                     </td>
                 </tr>
                 <tr>
-                    <td>
+                    <td id="td_gray_1">
                         Ciudad:
                         <br>
                         <input type="text"/>
@@ -441,16 +436,16 @@
                     <td id="td_blue">
                         Telefono:
                         <br>
-                        <input type="text"/>
+                        <input type="text" class="letra_pedido_tracking-input"/>
                     </td>
                     <td id="td_blue">
                         Telefono:
                         <br>
-                        <input type="text"/>
+                        <input type="text" class="letra_pedido_tracking-input"/>
                     </td>
                 </tr>
                 <tr>
-                    <td>
+                    <td id="td_gray_1">
                         Pais:
                         <br>
                         <input type="text"/>
@@ -461,43 +456,47 @@
                     <td id="td_blue">
                         Whatshapp:
                         <br>
-                        <input type="text"/>
+                        <input type="text" class="letra_pedido_tracking-input"/>
                     </td>
                     <td id="td_blue">
                         Whatshapp:
                         <br>
-                        <input type="text"/>
+                        <input type="text" class="letra_pedido_tracking-input"/>
                     </td>
                 </tr>
             </table>
         </div>
         <div class="main_3">
-            <div>
-                <h2>DATOS & DETALLE DEL SERVICIO</h2>
+            <div id="title" class="title">
+                <h2 class="font-bold">DATOS & DETALLE DEL SERVICIO</h2>
             </div>
             <div class="main_2">
                 <table class="table_main_3">
                     <tr>
-                        <td>
-                            Puerto de Embarque:
+                        <td id="td_gray_1">
+                           <div>
+                            Puerta de Embarque:
                             <br>
                             <input type="text"/>
+                           </div>
                         </td>
                         <td id="td_gray">
                             Transito:
                             <br>
                             <input type="text"/>
                         </td>
-                        <td id="td_blue">
-                            Restricciones
+                        <td id="td_blue" class="center">
+                          <div class="restricciones">
+                            <label for="">
+                                Restricciones
                             <br>
                             (Maxima por pieza):
-                            <br>
-                            <input type="text"/>
+                            </label>
+                          </div>
                         </td>
                     </tr>
                     <tr>
-                        <td>
+                        <td id="td_gray_1">
                             Puerto de Desembarque:
                             <br>
                             <input type="text"/>
@@ -510,11 +509,11 @@
                         <td id="td_blue">
                             Peso:
                             <br>
-                            <input type="text"/>
+                            <input type="text" class="letra_pedido_tracking-input"/>
                         </td>
                     </tr>
                     <tr>
-                        <td>
+                        <td id="td_gray_1">
                             Servicio:
                             <br>
                             <input type="text"/>
@@ -527,11 +526,11 @@
                         <td id="td_blue">
                             Dimensiones:
                             <br>
-                            <input type="text"/>
+                            <input type="text" class="letra_pedido_tracking-input"/>
                         </td>
                     </tr>
                     <tr>
-                        <td>
+                        <td id="td_gray_1">
                             Commodity:
                             <br>
                             <input type="text"/>
@@ -545,17 +544,17 @@
                             <div>
                                 Ancho:
                                 <br>
-                                <input type="text"/>
+                                <input type="text" class="letra_pedido_tracking-input"/>
                             </div>
                             <div>
                                 Alto:
                                 <br>
-                                <input type="text"/>
+                                <input type="text" class="letra_pedido_tracking-input"/>
                             </div>
                         </td>
                     </tr>
                     <tr>
-                        <td>
+                        <td id="td_gray_1">
                             Datos de la carga cotizada:
                             <br>
                             <input type="text"/>
@@ -569,12 +568,10 @@
                             Restricciones
                             <br>
                             (Maximo por embarcacion)
-                            <br>
-                            <input type="text"/>
                         </td>
                     </tr>
                     <tr>
-                        <td>
+                        <td id="td_gray_1"> 
                             Total Volumen:
                             <br>
                             <input type="text"/>
@@ -587,7 +584,7 @@
                         <td id="td_blue">
                             Dimensiones Maximo de Embarque:
                             <br>
-                            <input type="text"/>
+                            <input type="text" class="letra_pedido_tracking-input"/>
                         </td>
                     </tr>
                     <tr>
@@ -595,58 +592,84 @@
                             Reservado:
                         </td>
                         <td id="td_blue">
-                            USD
-                            <br>
-                            <input type="text"/>
+                            <div class="usd">
+                                USD
+                                <br>
+                                <input type="text" class="letra_pedido_tracking-input-2"/>
+                            </div>
                         </td>
                         <td id="td_blue">
                             Peso Max. x Pcs:
                             <br>
-                            <input type="text"/>
+                            <input type="text" class="letra_pedido_tracking-input"/>
                         </td>
                     </tr>
                 </table>
             </div>
         </div>
         <div class="main_4">
-            <div>
-                <h2 id="td_gray">DATOS & DETALLES DE LA TARIFA RESERVADA</h2>
+            <div id="title" class="title">
+                <h2 class="font-bold">DATOS & DETALLES DE LA TARIFA RESERVADA</h2>
             </div>
             <div class="detalles_tarifa">
                 <div class="detalles_tarifa-1">
-                    <div>
-                        <p>Maritimo <br> Recargos en origen</p>
+                    <div class="detalles_1">
+                        <p class="letra_pedido_tracking-label">Maritimo</p>
+                        <p class="letra_pedido_tracking-input">Recargos en origen</p>
                     </div>
-                    <div>
+                    <div class="detalles">
                         <table>
                             <tr>
-                                <td>Base:</td>
                                 <td>
-                                    <input type="text"/>
+                                    <label for="" class="letra_pedido_tracking-label-2">
+                                        Base:
+                                    </label>
+                                </td>
+                                <td>
+                                    <input type="text" class="letra_pedido_tracking-input-2 spacing_input"/>
                                 </td>
                             </tr>
                             <tr>
-                                <td>BF FEE:</td>
                                 <td>
-                                    <input type="text"/>
+                                    <div id="td_doble_2">
+                                        <p>BF FEE: </p>
+                                        <p class="letra_pequena">(Base Calculo)</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <input type="text" class="letra_pedido_tracking-input spacing_input" placeholder="232"/>
                                 </td>
                             </tr>
                             <tr>
-                                <td>SED:</td>
                                 <td>
-                                    <input type="text"/>
+                                    <div id="td_doble_2">
+                                        <p>SED:  </p>
+                                        <p class="letra_pequena">(Base Calculo)</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <input type="text" class="letra_pedido_tracking-input spacing_input"/>
                                 </td>
                             </tr>
                             <tr>
-                                <td>VGM:</td>
                                 <td>
-                                    <input type="text"/>
+                                    <div id="td_doble_2">
+                                        <p>VGM: </p>
+                                        <p class="letra_pequena">(Base Calculo)</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <input type="text" class="letra_pedido_tracking-input spacing_input"/>
                                 </td>
                             </tr>
                             <tr>
-                                <td>Handling:</td>
                                 <td>
-                                    <input type="text"/>
+                                    <label for="" class="letra_pedido_tracking-label-2">
+                                        Handling:
+                                    </label>
+                                </td>
+                                <td>
+                                    <input type="text" class="letra_pedido_tracking-input spacing_input"/>
                                 </td>
                             </tr>
                         </table>
@@ -654,44 +677,41 @@
                 </div>
                 <div class="detalles_tarifa-2">
                     <div>
-                        <h2>Precio Final</h2>
+                        <h2 class="font_bold_2">Precio Final</h2>
                     </div>
                     <div class="detalles_tarifa-2_impuesto">
-                        <p>Impuesto/Tax:</p>
-                        <input type="text" name="" id="">
+                        <div>
+                            <p class="letra_pedido_tracking-label">Impuesto/Tax:</p>
+                        </div>
+                        <div class="input_tax">
+                            <input type="text" name="" id="" class="letra_pedido_tracking-input tax">
+                        </div>
                     </div>
                     <div class="detalles_tarifa-2_precio_final">
-                        <p>Precio Final:</p>
-                        <input type="text" name="" id="">
+                        <div class="precio_final">
+                            <p class="letra_pedido_tracking-label">Precio Final:</p>
+                        </div>
+                        <div>
+                            <input type="text" name="" id="" class="font_bold_3">
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
         <div class="main_5">
-            <div id="td_gray">
-                <h2>TERMINOS & CONDICIONES</h2>
+            <div id="title" class="title">
+                <h2 class="font-bold ">TERMINOS & CONDICIONES DE SUS RESERVAS</h2>
             </div>
             <div class="terminos">
-                <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam blanditiis, placeat quam, nihil voluptates esse maxime veniam animi consectetur cupiditate minima possimus ipsa laborum optio modi doloremque perferendis suscipit alias?
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam blanditiis, placeat quam, nihil voluptates esse maxime veniam animi consectetur cupiditate minima possimus ipsa laborum optio modi doloremque perferendis suscipit alias?
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam blanditiis, placeat quam, nihil voluptates esse maxime veniam animi consectetur cupiditate minima possimus ipsa laborum optio modi doloremque perferendis suscipit alias?
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam blanditiis, placeat quam, nihil voluptates esse maxime veniam animi consectetur cupiditate minima possimus ipsa laborum optio modi doloremque perferendis suscipit alias?
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam blanditiis, placeat quam, nihil voluptates esse maxime veniam animi consectetur cupiditate minima possimus ipsa laborum optio modi doloremque perferendis suscipit alias?
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam blanditiis, placeat quam, nihil voluptates esse maxime veniam animi consectetur cupiditate minima possimus ipsa laborum optio modi doloremque perferendis suscipit alias?
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam blanditiis, placeat quam, nihil voluptates esse maxime veniam animi consectetur cupiditate minima possimus ipsa laborum optio modi doloremque perferendis suscipit alias?
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam blanditiis, placeat quam, nihil voluptates esse maxime veniam animi consectetur cupiditate minima possimus ipsa laborum optio modi doloremque perferendis suscipit alias?
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam blanditiis, placeat quam, nihil voluptates esse maxime veniam animi consectetur cupiditate minima possimus ipsa laborum optio modi doloremque perferendis suscipit alias?
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam blanditiis, placeat quam, nihil voluptates esse maxime veniam animi consectetur cupiditate minima possimus ipsa laborum optio modi doloremque perferendis suscipit alias?
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam blanditiis, placeat quam, nihil voluptates esse maxime veniam animi consectetur cupiditate minima possimus ipsa laborum optio modi doloremque perferendis suscipit alias?
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam blanditiis, placeat quam, nihil voluptates esse maxime veniam animi consectetur cupiditate minima possimus ipsa laborum optio modi doloremque perferendis suscipit alias?
+                <p class="text">
+                    Observaciones * Gastos Locales en destino no estan incluidos * Tarifas válidas solo para carga general y estibables, no IMO, sin sobredimensionada, ni efectos personales. * Casos Exw, tarifa válida únicamente para el peso, volumen, número de piezas, dimensiones y características especificadas. * Es responsabilidad del cliente contratar seguro de carga puerta/ puerta. Si esto no ocurre no será responsabilidad de Craft la pérdida o daño de la mercadería. * Pick Up cotizado en base a servicio LTL, no camión exclusivo. No incluye maniobras de carga. * El Valor por concepto de Customs clearance corresponde a un promedio y dependerá de los ítems aduanales a declarar, por lo tanto puede variar. En la cotización se indica un valor mínimo. * Debemos chequear con nuestras oficinas en Brasil, si la carga Nota: Esta cotización no incluye seguro de la carga. Seguro es opcional tasa 0,35 % sobre valor mercadería. Solo aseguramos las cargas si existe una instrucción por escrita del cliente contratando este servicio en forma complementaria al flete , en su defecto el seguro de la carga debe ser por cuenta del importador y/ o exportador Términos y Condiciones generales Cotizaciones: 1. Tarifas válidas para embarcar según datos de esta cotización tales como; país y dirección de origen/ destino/ modal/ tipo servicio. Etc, servicio indicado en esta cotización dentro de los próximos 7 días. Salvo notas de excepciones pactadas en la cotización. 2. Los tiempos de tránsitos y frecuencia de salidas son estimados y no garantizados debido que dependen de los itinerarios, disponibilidad de espacio, equipos de las cias navieras y/ o aéreas y/ o cias de camiones según el modal utilizado. 3. Cualquier gasto extra no considerado en esta cotización será notificado previo a la recogida de la mercadería para solicitar autorización o aquellos gastos generados durante el tránsito. 4. Tarifas sujetas a variaciones o re-cotizaciones según cambios a peso/ dimensiones/ volúmenes/ cantidad/ tipo carga/ datos de recogida / entrega origen/ destino, o notificaciones posteriores a esta cotización de alza de costo de los carrier efectivos (navieras/ líneas aéreas/ cias de camiones; no considerado o diferentes en la cotización inicial. 5. Toda cotización está basada en carga general, apilable, no sobredimensionada/ extra peso, considerando pallet estándar 100 x 100 x 120 cm y 900 KB. Salvo excepciones pactadas en la cotización- 6. La cotización o propuesta comercial no incluye el seguro de la mercadería para su traslado, siendo responsabilidad y obligación del remitente y/ o destinatario y/ o propietario de la mercadería asegurar sus embarques desde el momento de la recogida en origen hasta su entrega final. Por la cual la sola aceptación de la presente orden de cotización/ compra sin la contratación expresa del respectivo seguro constituye una liberación para Delpa de los eventuales hechos, riesgos o daños ocasionados a las cargas transportadas y no podrá ser considerada una eximente, prórroga o exclusión para el pago de los servicios contratados. Para estos efectos el cliente deberá contratar nuestros seguros en forma adicional a la contratación del flete y esté pactado por escrito en esta cotización en forma explícita como un servicio adicional al flete. Las mercaderías viajan por cuenta y riesgos de nuestros clientes y no aseguramos las mismas de no mediar orden expresa por escrito, de modo que todo tiempo o retardo que se deba a cualquier gestión judicial o extrajudicial que deba desarrollarse para precisar la o las causas del eventual siniestros, será de cargo del cliente. En todas las operaciones de transporte nuestra responsabilidad no podrá exceder en ningún caso a las que asumen frente a nosotros los ferrocarriles , cias de navegación, aéreas y de porte transporte y/ o almacenaje(depósitos) que hayan intervenido en la trazabilidad del viaje. 7. Todo Documento de transporte internacional original ( BL-AWB-CRT), solo puede ser liberado al consignatario previa autorización del remitente o exportador en origen 8. Es responsabilidad y obligación del remitente entregar mercaderías con un embalaje adecuado, resistente, acorde a la naturaleza de la mercadería como del medio de transporte y tránsito a recorrer. Considerar que toda carga consolidada (suelta) por defecto es una carga apilable. Si una carga no puede ser apilada es responsabilidad del remitente/ destinatario/ propietario de la mercadería notificar por escrito a fin de poder de re cotizar el servicio contratado debido a que toda carga suelta o consolidada que no pueda ser apilada requiere pagar un adicional por falso espacio no utilizado por otras cargas. En caso de servicios exclusivos de transporte tales como; contenedores completos y/ o camiones que son cargados en planta o centro logístico por el remitente y a quien éste delegue dicha gestión es de su exclusiva exclusiva responsabilidad estibar y amarrar adecuadamente los diferentes bultos cargados en su interior a fin de que estos puedan llegar en las mismas condiciones a destinos, excluyendo al transporte de cualquier responsabilidad por daños que los bultos hayan sufrido durante el viaje de origen/ destino                    
                 </p>
             </div>
         </div>
     </main>
     <footer>
         <div>
-            <p>Av.Sta. Clara 301, Huechuraba, Region Metropolitana / Contacto@delpagroup.com / www.delpagroup.com</p>
+            <p class="footer">Av.Sta. Clara 301, Huechuraba, Region Metropolitana / Contacto@delpagroup.com / www.delpagroup.com</p>
         </div>
         <div>logo</div>
     </footer>
