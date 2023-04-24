@@ -110,16 +110,14 @@ input {
     width: 100%;
 }
 
-.main_1 {
-    background-color: #d1d1d1;
-    text-align: center;
-}
-
-.main_2 {
+.table {
     margin-top: -15px;
     text-align: center;
 }
 
+.table_2 {
+    margin-top: -15px;
+}
 .table_main_2 {
     margin-top: -18px;
     width: 100%;
@@ -154,13 +152,6 @@ input {
     text-align: center;
 }
 
-.main_3 {
-    margin-top: -15px;
-}
-
-.main_4 {
-    margin-top: -15px;
-}
 
 .title {
     margin-bottom: 5px;
@@ -196,10 +187,6 @@ input {
     text-align: center;
     font-weight: 900;
     color: #ffff;
-}
-
-.main_5 {
-    margin-top: -10px;
 }
 
 #title {
@@ -267,10 +254,10 @@ input {
     background-color: #293963;
 }
 
-footer {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+
+#td_gray {
+    background-color: #d1d1d1;
+    color: #414141;
 }
 
 #td_gray_1 {
@@ -278,24 +265,20 @@ footer {
     color: #414141;
 }
 
-#td_gray {
-    background-color: #d1d1d1;
-    color: #414141;
-}
 
 #td_blue {
     background-color: #293963;
     color: white;
 }
 
-.letra_pedido_tracking-input {
+.letra_white {
     font-size: 18px;
     color: #ffff;
     font-weight: 400;
     font-style: italic;
 }
 
-.letra_pedido_tracking-input-2 {
+.letra_white_2 {
     font-size: 20px;
     color: #ffff;
     font-weight: 900;
@@ -364,6 +347,12 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
     align-items: center;
 }
 

@@ -11,6 +11,7 @@
     <title>Planilla Solicitud</title>
 </head>
 <body>
+    <!-- HEADER -->
     <header>
         <div>
             <div>correo telefono</div>
@@ -18,34 +19,36 @@
         </div>
     </header>
     <main>
+         <!-- DATOS DEL CLIENTE -->
         <div>
             <div class="informacion_cliente">
                 <div>
                     <form action="#" class="datos_cliente">
                         <label for="name_cliente">CLIENTE:</label>
-                        <input type="text" id="name_cliente" placeholder="NOMBRE CLIENTE" class="letra_pedido_tracking-input">
+                        <input type="text" id="name_cliente" ="NOMBRE CLIENTE" class="letra_white">
                         <div>
                             <label for="name_cliente">EMPRESA:</label>
-                            <input type="text" id="name_cliente" placeholder="Nombre Empresa" class="letra_pedido_tracking-input">
+                            <input type="text" id="name_cliente" ="Nombre Empresa" class="letra_white">
                         </div>
                         <div>
                             <label for="name_cliente">RAZON SOCIAL:</label>
-                            <input type="text" id="name_cliente" placeholder="Nombre Razon Social" class="letra_pedido_tracking-input">
+                            <input type="text" id="name_cliente" ="Nombre Razon Social" class="letra_white">
                         </div>
                         <div>
                             <label for="name_cliente">CORREO:</label>
-                            <input type="email" id="name_cliente" placeholder="vitrineando@gmail.com" class="letra_pedido_tracking-input">
+                            <input type="email" id="name_cliente" ="vitrineando@gmail.com" class="letra_white">
                         </div>
                         <div>
                             <label for="name_cliente">TELEFONO FIJO:</label>
-                            <input type="text" id="name_cliente" placeholder="+1 (786) 6008219" class="letra_pedido_tracking-input">
+                            <input type="text" id="name_cliente" ="+1 (786) 6008219" class="letra_white">
                         </div>
                         <div>
                             <label for="name_cliente">TELEFONO MOVIL:</label>
-                            <input type="text" id="name_cliente" placeholder="+1 (786) 6008219" class="letra_pedido_tracking-input">
+                            <input type="text" id="name_cliente" ="+1 (786) 6008219" class="letra_white">
                         </div>
                     </form>
                 </div>
+                <!-- TABLA SOLICITUD DE COTIZACION -->
                 <div class="tabla_pedido">
                     <div class="title_solicitud">
                         <h2 class="font_bold_2">SOLICITUD DE COTIZACION</h2>
@@ -54,11 +57,11 @@
                         <div class="tabla_pedido_tracking">
                             <div>
                                 <label for="" class="letra_pedido_tracking-label">Pedido Nº:</label>
-                                <input type="text" placeholder="1648465491" class="letra_pedido_tracking-input">
+                                <input type="text"  class="letra_white">
                             </div>
                             <div>
                                 <label for="" class="letra_pedido_tracking-label">Nº. Tracking:</label>
-                                <input type="text" placeholder="45378688-9" class="letra_pedido_tracking-input">
+                                <input type="text" class="letra_white">
                             </div>
                         </div>
                         <div class="tabla_pedido_tracking-time">
@@ -69,21 +72,21 @@
                                         Rut. Fact:
                                     </label>
                                     <br>
-                                    <input type="text" class="input" placeholder="1648465491"/>
+                                    <input type="text" class="input"/>
                                 </td>
                                 <td>
                                     <label for="" id="label">
                                         Fecha:
                                     </label>
                                     <br>
-                                    <input type="text"/ placeholder="01-01-2023" class="input">
+                                    <input type="text" class="input">
                                 </td>
                                 <td>
                                     <label for="" id="label">
                                         Hora
                                     </label>
                                     <br>
-                                    <input type="text" class="input" placeholder="11:00 am"/>
+                                    <input type="text" class="input" />
                                 </td>
                             </tr>
                            </table>
@@ -92,396 +95,522 @@
                 </div>
             </div>
         </div>
-        <div class="main_2">
+        <!-- DATOS REMITENTE / SHIPPER / EXPORTADOR -->
+        <div class="table">
             <div id="title">
                 <h2 class="font-bold">1.DATOS DE REMITENTE / SHIPPER / EXPORTADOR</h2>
             </div>
             <table class="table_main_2">
                 <tr>
                     <td id="td_gray_1">
-                        ID Empresa:
+                        <label for="">
+                            ID Empresa:
+                        </label>
                         <br>
                         <input type="text"/>
                     </td>
                     <td id="td_gray">
-                        Nombre Remitente:
+                        <label for="">
+                            Nombre Remitente:
+                        </label>
                         <br>
                         <input type="text"/>
                     </td>
                     <td id="td_gray">
-                        Contacto 1:
+                        <label for="">
+                            Contacto 1:
+                        </label>
                         <br>
                         <input type="text"/>
                     </td>
                     <td id="td_gray">
-                        Contacto 2:
+                        <label for="">
+                            Contacto 2:
+                        </label>
                         <br>
                         <input type="text"/>
                     </td>
                 </tr>
                 <tr>
                     <td id="td_gray_1">
-                        Direccion:
+                        <label for="">
+                            Direccion:
+                        </label>
                         <br>
                         <input type="text"/>
                     </td>
                     <td id="td_gray">
-                        Nº Referencia:
+                        <label for="">
+                            Nº Referencia:
+                        </label>
                         <br>
                         <input type="text"/>
                     </td>
                     <td id="td_blue">
-                        Correo:
+                        <label for="">
+                            Correo:
+                        </label>
                         <br>
-                        <input type="text" class="letra_pedido_tracking-input"/>
+                        <input type="text" class="letra_white"/>
                     </td>
                     <td id="td_blue">
-                        Correo:
+                        <label for="">
+                            Correo:
+                        </label>
                         <br>
-                        <input type="text" class="letra_pedido_tracking-input"/>
+                        <input type="text" class="letra_white"/>
                     </td>
                 </tr>
                 <tr>
                     <td id="td_gray_1">
-                        Ciudad:
+                        <label for="">
+                            Ciudad:
+                        </label>
                         <br>
                         <input type="text"/>
                     </td>
                     <td id="td_gray">
-                        Observaciones:
+                        <label for="">
+                            Observaciones:
+                        </label>
                         <br>
                         <input type="text"/>
                     </td>
                     <td id="td_blue">
-                        Telefono:
+                        <label for="">
+                            Telefono:
+                        </label>
                         <br>
-                        <input type="text" class="letra_pedido_tracking-input"/>
+                        <input type="text" class="letra_white"/>
                     </td>
                     <td id="td_blue">
-                        Telefono:
+                        <label for="">
+                            Telefono:
+                        </label>
                         <br>
-                        <input type="text" class="letra_pedido_tracking-input"/>
+                        <input type="text" class="letra_white"/>
                     </td>
                 </tr>
                 <tr>
                     <td id="td_gray_1">
-                        Pais:
+                        <label for="">
+                            Pais:
+                        </label>
                         <br>
                         <input type="text"/>
                     </td>
                     <td id="td_gray">
-
                     </td>
                     <td id="td_blue">
-                        Whatshapp:
+                        <label for="">
+                            Whatshapp:
+                        </label>
                         <br>
-                        <input type="text" class="letra_pedido_tracking-input"/>
+                        <input type="text" class="letra_white"/>
                     </td>
                     <td id="td_blue">
-                        Whatshapp:
+                        <label for="">
+                            Whatshapp:
+                        </label>
                         <br>
-                        <input type="text" class="letra_pedido_tracking-input"/>
+                        <input type="text" class="letra_white"/>
                     </td>
                 </tr>
             </table>
         </div>
-        <div class="main_2">
+        <!-- DATOS RECOGIDA -->
+        <div class="table">
             <div id="title">
                 <h2 class="font-bold">2. DATOS RECOGIDA</h2>
             </div>
             <table class="table_main_2">
                 <tr>
                     <td id="td_gray_1">
-                        Nombre CD:
+                        <label for="">
+                            Nombre CD:
+                        </label>
                         <br>
                         <input type="text"/>
                     </td>
                     <td id="td_gray">
-                        Hora Desde:
+                        <label for="">
+                            Hora Desde:
+                        </label>
                         <br>
                         <input type="text"/>
                     </td>
                     <td id="td_gray">
-                        Contacto 1:
+                        <label for="">
+                            Contacto 1:
+                        </label>
                         <br>
                         <input type="text"/>
                     </td>
                     <td id="td_gray">
-                        <label for="">Contacto 2:</label> 
+                        <label for="">
+                            Contacto 2:
+                        </label> 
                         <br>
                         <input type="text"/>
                     </td>
                 </tr>
                 <tr>
                     <td id="td_gray_1">
-                        Direccion:
+                        <label for="">
+                            Direccion:
+                        </label>
                         <br>
                         <input type="text"/>
                     </td>
                     <td id="td_gray">
-                        Hora Hasta:
+                        <label for="">
+                            Hora Hasta:
+                        </label>
                         <br>
                         <input type="text"/>
                     </td>
                     <td id="td_blue">
-                        Correo:
+                        <label for="">
+                            Correo:
+                        </label>
                         <br>
-                        <input type="text" class="letra_pedido_tracking-input"/>
+                        <input type="text" class="letra_white"/>
                     </td>
                     <td id="td_blue">
-                        Correo:
+                        <label for="">
+                            Correo:
+                        </label>
                         <br>
-                        <input type="text" class="letra_pedido_tracking-input"/>
+                        <input type="text" class="letra_white"/>
                     </td>
                 </tr>
                 <tr>
                     <td id="td_gray_1">
-                        Ciudad:
+                        <label for="">
+                            Ciudad:
+                        </label>
                         <br>
                         <input type="text"/>
                     </td>
                     <td id="td_gray">
-                        Observaciones:
+                        <label for="">
+                            Observaciones:
+                        </label>
                         <br>
                         <input type="text"/>
                     </td>
                     <td id="td_blue">
-                        Telefono:
+                        <label for="">
+                            Telefono:
+                        </label>
                         <br>
-                        <input type="text" class="letra_pedido_tracking-input"/>
+                        <input type="text" class="letra_white"/>
                     </td>
                     <td id="td_blue">
-                        Telefono:
+                        <label for="">
+                            Telefono:
+                        </label>
                         <br>
-                        <input type="text" class="letra_pedido_tracking-input"/>
+                        <input type="text" class="letra_white"/>
                     </td>
                 </tr>
                 <tr>
                     <td id="td_gray_1">
-                        Pais:
+                        <label for="">
+                            Pais:
+                        </label>
                         <br>
                         <input type="text"/>
                     </td>
                     <td id="td_gray">
-
                     </td>
                     <td id="td_blue">
-                        Whatshapp:
+                        <label for="">
+                            Whatshapp:
+                        </label>
                         <br>
-                        <input type="text" class="letra_pedido_tracking-input"/>
+                        <input type="text" class="letra_white"/>
                     </td>
                     <td id="td_blue">
-                        Whatshapp:
+                        <label for="">
+                            Whatshapp:
+                        </label>
                         <br>
-                        <input type="text" class="letra_pedido_tracking-input"/>
+                        <input type="text" class="letra_white"/>
                     </td>
                 </tr>
             </table>
         </div>
-        <div class="main_2">
+        <!-- DATOS DE DESTINATARIO / CONSIGNEE / IMPORTADOR -->
+        <div class="table">
             <div id="title">
                 <h2 class="font-bold">3. DATOS DE DESTINATARIO / CONSIGNEE / IMPORTADOR</h2>
             </div>
             <table class="table_main_2">
                 <tr>
                     <td id="td_gray_1">
-                        ID Empresa:
+                        <label for="">
+                            ID Empresa:
+                        </label>
                         <br>
                         <input type="text"/>
                     </td>
                     <td id="td_gray">
-                        Nombre Destinatario:
+                        <label for="">
+                            Nombre Destinatario:
+                        </label>
                         <br>
                         <input type="text"/>
                     </td>
                     <td id="td_gray">
-                        Contacto 1:
+                        <label for="">
+                            Contacto 1:
+                        </label>
                         <br>
                         <input type="text"/>
                     </td>
                     <td id="td_gray">
-                        Contacto 2:
+                        <label for="">
+                            Contacto 2:
+                        </label>
                         <br>
                         <input type="text"/>
                     </td>
                 </tr>
                 <tr>
                     <td id="td_gray_1">
-                        Direccion:
+                        <label for="">
+                            Direccion:
+                        </label>
                         <br>
                         <input type="text"/>
                     </td>
                     <td id="td_gray">
-                        Nº Referencia:
+                        <label for="">
+                            Nº Referencia:
+                        </label>
                         <br>
                         <input type="text"/>
                     </td>
                     <td id="td_blue">
-                        Correo:
+                        <label for="">
+                            Correo:
+                        </label>
                         <br>
-                        <input type="text" class="letra_pedido_tracking-input"/>
+                        <input type="text" class="letra_white"/>
                     </td>
                     <td id="td_blue">
-                        Correo:
+                        <label for="">
+                            Correo:
+                        </label>
                         <br>
-                        <input type="text" class="letra_pedido_tracking-input"/>
+                        <input type="text" class="letra_white"/>
                     </td>
                 </tr>
                 <tr>
                     <td id="td_gray_1">
-                        Ciudad:
+                        <label for="">
+                            Ciudad:
+                        </label>
                         <br>
                         <input type="text"/>
                     </td>
                     <td id="td_gray">
-                        Hora Desde:
+                        <label for="">
+                            Hora Desde:
+                        </label>
                         <br>
                         <input type="text"/>
                     </td>
                     <td id="td_blue">
-                        Telefono:
+                        <label for="">
+                            Telefono:
+                        </label>
                         <br>
-                        <input type="text" class="letra_pedido_tracking-input"/>
+                        <input type="text" class="letra_white"/>
                     </td>
                     <td id="td_blue">
-                        Telefono:
+                        <label for="">
+                            Telefono:
+                        </label>
                         <br>
-                        <input type="text" class="letra_pedido_tracking-input"/>
+                        <input type="text" class="letra_white"/>
                     </td>
                 </tr>
                 <tr>
                     <td id="td_gray_1">
-                        Pais:
+                        <label for="">
+                            Pais:
+                        </label>
                         <br>
                         <input type="text"/>
                     </td>
                     <td id="td_gray">
-                        Hora Hasta:
+                        <label for="">
+                            Hora Hasta:
+                        </label>
                         <br>
                         <input type="text"/>
                     </td>
                     <td id="td_blue">
-                        Observaciones:
+                        <label for="">
+                            Observaciones:
+                        </label>
                         <br>
-                        <input type="text" class="letra_pedido_tracking-input"/>
+                        <input type="text" class="letra_white"/>
                     </td>
                     <td id="td_blue">
-                        Whatshapp:
+                        <label for="">
+                            Whatshapp:
+                        </label>
                         <br>
-                        <input type="text" class="letra_pedido_tracking-input"/>
+                        <input type="text" class="letra_white"/>
                     </td>
                 </tr>
             </table>
         </div>
-        <div class="main_2">
+        <!-- DATOS DE ENTREGA -->
+        <div class="table">
             <div id="title">
                 <h2 class="font-bold">4. DATOS DE ENTREGA</h2>
             </div>
             <table class="table_main_2">
                 <tr>
                     <td id="td_gray_1">
-                        Nombre CD:
+                        <label for="">
+                            Nombre CD:
+                        </label>
                         <br>
                         <input type="text"/>
                     </td>
                     <td id="td_gray">
-                        Hora Desde:
+                        <label for="">
+                            Hora Desde:
+                        </label>
                         <br>
                         <input type="text"/>
                     </td>
                     <td id="td_gray">
-                        Contacto 1:
+                        <label for="">
+                            Contacto 1:
+                        </label>
                         <br>
                         <input type="text"/>
                     </td>
                     <td id="td_gray">
-                        Contacto 2:
+                        <label for="">
+                            Contacto 2:
+                        </label>
                         <br>
                         <input type="text"/>
                     </td>
                 </tr>
                 <tr>
                     <td id="td_gray_1">
-                        Direccion:
+                        <label for="">
+                            Direccion:
+                        </label>
                         <br>
                         <input type="text"/>
                     </td>
                     <td id="td_gray">
-                        Hora Hasta:
+                        <label for="">
+                            Hora Hasta:
+                        </label>
                         <br>
                         <input type="text"/>
                     </td>
                     <td id="td_blue">
-                        Correo:
+                        <label for="">
+                            Correo:
+                        </label>
                         <br>
-                        <input type="text" class="letra_pedido_tracking-input"/>
+                        <input type="text" class="letra_white"/>
                     </td>
                     <td id="td_blue">
-                        Correo:
+                        <label for="">
+                            Correo:
+                        </label>
                         <br>
-                        <input type="text" class="letra_pedido_tracking-input"/>
+                        <input type="text" class="letra_white"/>
                     </td>
                 </tr>
                 <tr>
                     <td id="td_gray_1">
-                        Ciudad:
+                        <label for="">
+                            Ciudad:
+                        </label>
                         <br>
                         <input type="text"/>
                     </td>
                     <td id="td_gray">
-                        Observaciones:
+                        <label for="">
+                            Observaciones:
+                        </label>
                         <br>
                         <input type="text"/>
                     </td>
                     <td id="td_blue">
-                        Telefono:
+                        <label for="">
+                            Telefono:
+                        </label>
                         <br>
-                        <input type="text" class="letra_pedido_tracking-input"/>
+                        <input type="text" class="letra_white"/>
                     </td>
                     <td id="td_blue">
-                        Telefono:
+                        <label for="">
+                            Telefono:
+                        </label>
                         <br>
-                        <input type="text" class="letra_pedido_tracking-input"/>
+                        <input type="text" class="letra_white"/>
                     </td>
                 </tr>
                 <tr>
                     <td id="td_gray_1">
-                        Pais:
+                        <label for="">
+                            Pais:
+                        </label>
                         <br>
                         <input type="text"/>
                     </td>
                     <td id="td_gray">
-
                     </td>
                     <td id="td_blue">
-                        Whatshapp:
+                        <label for="">
+                            Whatshapp:
+                        </label>
                         <br>
-                        <input type="text" class="letra_pedido_tracking-input"/>
+                        <input type="text" class="letra_white"/>
                     </td>
                     <td id="td_blue">
-                        Whatshapp:
+                        <label for="">
+                            Whatshapp:
+                        </label>
                         <br>
-                        <input type="text" class="letra_pedido_tracking-input"/>
+                        <input type="text" class="letra_white"/>
                     </td>
                 </tr>
             </table>
         </div>
-        <div class="main_3">
+        <!-- DATOS & DETALLE DEL SERVICIO -->
+        <div class="table_2">
             <div id="title" class="title">
                 <h2 class="font-bold">DATOS & DETALLE DEL SERVICIO</h2>
             </div>
-            <div class="main_2">
+            <div class="table">
                 <table class="table_main_3">
                     <tr>
                         <td id="td_gray_1">
-                           <div>
-                            Puerta de Embarque:
+                            <label for="">
+                                Puerta de Embarque:
+                            </label>
                             <br>
                             <input type="text"/>
-                           </div>
                         </td>
                         <td id="td_gray">
-                            Transito:
+                            <label for="">
+                                Transito:
+                            </label>
                             <br>
                             <input type="text"/>
                         </td>
@@ -497,70 +626,94 @@
                     </tr>
                     <tr>
                         <td id="td_gray_1">
-                            Puerto de Desembarque:
+                            <label for="">
+                                Puerto de Desembarque:
+                            </label>
                             <br>
                             <input type="text"/>
                         </td>
                         <td id="td_gray">
-                            Frecuencia:
+                            <label for="">
+                                Frecuencia:
+                            </label>
                             <br>
                             <input type="text"/>
                         </td>
                         <td id="td_blue">
-                            Peso:
+                            <label for="">
+                                Peso:
+                            </label>
                             <br>
-                            <input type="text" class="letra_pedido_tracking-input"/>
+                            <input type="text" class="letra_white"/>
                         </td>
                     </tr>
                     <tr>
                         <td id="td_gray_1">
-                            Servicio:
+                            <label for="">
+                                Servicio:
+                            </label>
                             <br>
                             <input type="text"/>
                         </td>
                         <td id="td_gray">
-                            Tipo de Flete:
+                            <label for="">
+                                Tipo de Flete:
+                            </label>
                             <br>
                             <input type="text"/>
                         </td>
                         <td id="td_blue">
-                            Dimensiones:
+                            <label for="">
+                                Dimensiones:
+                            </label>
                             <br>
-                            <input type="text" class="letra_pedido_tracking-input"/>
+                            <input type="text" class="letra_white"/>
                         </td>
                     </tr>
                     <tr>
                         <td id="td_gray_1">
-                            Commodity:
+                            <label for="">
+                                Commodity:
+                            </label>
                             <br>
                             <input type="text"/>
                         </td>
                         <td id="td_gray">
-                            Total Pcs:
+                            <label for="">
+                                Total Pcs:
+                            </label>
                             <br>
                             <input type="text"/>
                         </td>
                         <td id="td_doble">
                             <div>
-                                Ancho:
+                                <label for="">
+                                    Ancho:
+                                </label>
                                 <br>
-                                <input type="text" class="letra_pedido_tracking-input"/>
+                                <input type="text" class="letra_white"/>
                             </div>
                             <div>
-                                Alto:
+                                <label for="">
+                                    Alto:
+                                </label>
                                 <br>
-                                <input type="text" class="letra_pedido_tracking-input"/>
+                                <input type="text" class="letra_white"/>
                             </div>
                         </td>
                     </tr>
                     <tr>
                         <td id="td_gray_1">
-                            Datos de la carga cotizada:
+                            <label for="">
+                                Datos de la carga cotizada:
+                            </label>
                             <br>
                             <input type="text"/>
                         </td>
                         <td id="td_gray">
+                           <label for="">
                             Proveedor:
+                           </label>
                             <br>
                             <input type="text"/>
                         </td>
@@ -572,19 +725,25 @@
                     </tr>
                     <tr>
                         <td id="td_gray_1"> 
-                            Total Volumen:
+                            <label for="">
+                                Total Volumen:
+                            </label>
                             <br>
                             <input type="text"/>
                         </td>
                         <td id="td_gray">
-                            Carrier:
+                            <label for="">
+                                Carrier:
+                            </label>
                             <br>
                             <input type="text"/>
                         </td>
                         <td id="td_blue">
-                            Dimensiones Maximo de Embarque:
+                            <label for="">
+                                Dimensiones Maximo de Embarque:
+                            </label>
                             <br>
-                            <input type="text" class="letra_pedido_tracking-input"/>
+                            <input type="text" class="letra_white"/>
                         </td>
                     </tr>
                     <tr>
@@ -593,21 +752,26 @@
                         </td>
                         <td id="td_blue">
                             <div class="usd">
-                                USD
+                                <label for="">
+                                    USD
+                                </label>
                                 <br>
-                                <input type="text" class="letra_pedido_tracking-input-2"/>
+                                <input type="text" class="letra_white_2"/>
                             </div>
                         </td>
                         <td id="td_blue">
-                            Peso Max. x Pcs:
+                            <label for="">
+                                Peso Max. x Pcs:
+                            </label>
                             <br>
-                            <input type="text" class="letra_pedido_tracking-input"/>
+                            <input type="text" class="letra_white"/>
                         </td>
                     </tr>
                 </table>
             </div>
         </div>
-        <div class="main_4">
+        <!-- DATOS & DETALLES DE LA TARIFA RESERVADA -->
+        <div class="table_2">
             <div id="title" class="title">
                 <h2 class="font-bold">DATOS & DETALLES DE LA TARIFA RESERVADA</h2>
             </div>
@@ -615,7 +779,7 @@
                 <div class="detalles_tarifa-1">
                     <div class="detalles_1">
                         <p class="letra_pedido_tracking-label">Maritimo</p>
-                        <p class="letra_pedido_tracking-input">Recargos en origen</p>
+                        <p class="letra_white">Recargos en origen</p>
                     </div>
                     <div class="detalles">
                         <table>
@@ -626,7 +790,7 @@
                                     </label>
                                 </td>
                                 <td>
-                                    <input type="text" class="letra_pedido_tracking-input-2 spacing_input"/>
+                                    <input type="text" class="letra_white_2 spacing_input"/>
                                 </td>
                             </tr>
                             <tr>
@@ -637,7 +801,7 @@
                                     </div>
                                 </td>
                                 <td>
-                                    <input type="text" class="letra_pedido_tracking-input spacing_input" placeholder="232"/>
+                                    <input type="text" class="letra_white spacing_input"/>
                                 </td>
                             </tr>
                             <tr>
@@ -648,7 +812,7 @@
                                     </div>
                                 </td>
                                 <td>
-                                    <input type="text" class="letra_pedido_tracking-input spacing_input"/>
+                                    <input type="text" class="letra_white spacing_input"/>
                                 </td>
                             </tr>
                             <tr>
@@ -659,7 +823,7 @@
                                     </div>
                                 </td>
                                 <td>
-                                    <input type="text" class="letra_pedido_tracking-input spacing_input"/>
+                                    <input type="text" class="letra_white spacing_input"/>
                                 </td>
                             </tr>
                             <tr>
@@ -669,7 +833,7 @@
                                     </label>
                                 </td>
                                 <td>
-                                    <input type="text" class="letra_pedido_tracking-input spacing_input"/>
+                                    <input type="text" class="letra_white spacing_input"/>
                                 </td>
                             </tr>
                         </table>
@@ -684,7 +848,7 @@
                             <p class="letra_pedido_tracking-label">Impuesto/Tax:</p>
                         </div>
                         <div class="input_tax">
-                            <input type="text" name="" id="" class="letra_pedido_tracking-input tax">
+                            <input type="text" name="" id="" class="letra_white tax">
                         </div>
                     </div>
                     <div class="detalles_tarifa-2_precio_final">
@@ -698,7 +862,8 @@
                 </div>
             </div>
         </div>
-        <div class="main_5">
+        <!-- TERMINOS & CONDICIONES DE SUS RESERVAS -->
+        <div class="table_2">
             <div id="title" class="title">
                 <h2 class="font-bold ">TERMINOS & CONDICIONES DE SUS RESERVAS</h2>
             </div>
@@ -709,6 +874,7 @@
             </div>
         </div>
     </main>
+    <!-- FOOTER -->
     <footer>
         <div>
             <p class="footer">Av.Sta. Clara 301, Huechuraba, Region Metropolitana / Contacto@delpagroup.com / www.delpagroup.com</p>
