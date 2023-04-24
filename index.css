@@ -173,6 +173,7 @@ img {
 .tabla_pedido_tracking-time input {
     color: var(--gray-2);
     text-align: left;
+    font-size: 18px;
 }
 
 .tabla_pedido_tracking-time table {
@@ -256,7 +257,7 @@ img {
 .font_bold_3 {
     width: 150px;
     font-size: 30px;
-    text-align: center;
+    text-align: end;
     font-weight: 900;
     color: var(--font_white);
 }
