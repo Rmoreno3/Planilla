@@ -1,4 +1,13 @@
 
+:root {
+    --font_white: #ffff;
+    --gray-1: #3c3c3c;
+    --gray-2: #414141;
+    --gray-3: #eeeded;
+    --gray-4: #d1d1d1;
+    --blue: #293963;
+}
+
 
 html {
     font-family: 'Montserrat';
@@ -10,13 +19,86 @@ input {
     background-color: transparent;
 }
 
+.cabezera_icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.cabezera_contacto {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+.cabezera p {
+    font-size: 10px;
+}
+
+.correo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.web {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor_icono {
+    margin: 5px;
+    width: 30px;
+    height: 30px;
+}
+
+
+.contenedor_img_logo {
+    width: 200px;
+    height: 200px;
+}
+
+.contenedor_img_logo_2 {
+    width: 600px;
+    height: 150px;
+}
+
+.contenedor_img_logo_3 {
+    position: absolute;
+    margin-left: 1200px;
+    margin-bottom: 10px;
+    width: 90px;
+    height: 90px;
+}
+
+.contenedor_vector {
+    position: absolute;;
+    /* width: 100px;
+    height: 100px; */
+    height: 100px;
+    margin-right: 1550px;
+    margin-bottom: -60px;
+}
+
+img {
+    width: inherit;
+    height: inherit;;
+}
+
+
+.vector {
+    object-fit: cover;
+    object-position: right;
+}
+
 .informacion_cliente {
     display: flex;
     justify-items: center;
     justify-content: center;
     align-items: center;
-    background-color: #3c3c3c;
-    color: white;
+    background-color: var(--gray-1);
+    color: var(--font_white);
     height: 200px;
 }
 
@@ -49,10 +131,6 @@ input {
     width: 120px;
     height: 20px;
     margin-left: 5px;
-}
-
-.holder_pedido::placeholder {
-    color: white;
 }
 
 .pedido_1 {
@@ -93,14 +171,8 @@ input {
 }
 
 .tabla_pedido_tracking-time input {
-    color: #414141;
+    color: var(--gray-2);
     text-align: left;
-}
-
-.input::placeholder {
-    color: #414141;
-    font-size: 18px;
-    font-style: italic;
 }
 
 .tabla_pedido_tracking-time table {
@@ -165,7 +237,7 @@ input {
 
 .font-bold {
     font-weight: 900;
-    color: #414141;
+    color: var(--gray-2);
 }
 
 .input_tax input {
@@ -177,7 +249,7 @@ input {
     font-size: 30px;
     text-align: center;
     font-weight: 900;
-    color: #ffff;
+    color: var(--font_white);
 }
 
 
@@ -186,7 +258,7 @@ input {
     font-size: 30px;
     text-align: center;
     font-weight: 900;
-    color: #ffff;
+    color: var(--font_white);
 }
 
 #title {
@@ -206,7 +278,7 @@ input {
     margin-right: 10px;
     justify-content: center;
     width: 50%;
-    background-color: #293963;
+    background-color: var(--blue);
 }
 
 .detalles_tarifa-2 {
@@ -215,7 +287,7 @@ input {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #3c3c3c;
+    background-color: var(--gray-1);
 }
 
 .precio_final {
@@ -256,63 +328,59 @@ input {
 
 
 #td_gray {
-    background-color: #d1d1d1;
+    background-color: var(--gray-4);
     color: #414141;
 }
 
 #td_gray_1 {
-    background-color: #eeeded;
+    background-color: var(--gray-3);
     color: #414141;
 }
 
 
 #td_blue {
-    background-color: #293963;
-    color: white;
+    background-color: var(--blue);
+    color: var(--font_white);
 }
 
 .letra_white {
     font-size: 18px;
-    color: #ffff;
+    color: var(--font_white);
     font-weight: 400;
     font-style: italic;
 }
 
 .letra_white_2 {
     font-size: 20px;
-    color: #ffff;
+    color: var(--font_white);
     font-weight: 900;
-}
-
-.letra_pedido_tracking-input::placeholder {
-    color: #ffff
 }
 
 .letra_pedido_tracking-label {
     font-size: 20px;
-    color: #ffff;
+    color:var(--font_white);
 }
 
 .letra_pedido_tracking-label-2 {
-    color: #ffff;
+    color:var(--font_white);
 }
 
 
 #td_doble {
     display: flex;
-    background-color: #293963;
-    color: white;
+    background-color: var(--blue);
+    color: var(--font_white);
 }
 
 #td_doble_2 {
     display: flex;
     align-items: center;
-    background-color: #293963;
-    color: white;
+    background-color: var(--blue);
+    color: var(--font_white);
 }
 
 #label {
-    color: #414141;
+    color: var(--gray-2);
 }
 
 
@@ -353,9 +421,9 @@ input {
 footer {
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: end;
 }
 
 .footer {
-    color: #293963;
+    color: var(--blue);
 }
